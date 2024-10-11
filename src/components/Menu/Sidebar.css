@@ -1,0 +1,71 @@
+.sidebar {
+  width: 25vh;
+  height: 100vh;
+  border: solid #1c6e12 1px;
+  border-width: 5px;
+  border-radius: 0 10px 10px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #1C6E12;
+}
+
+.sidebar a {
+  font-size: 1.3em;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: #1C6E12 solid 1px;
+  background-color: #238516;
+}
+
+.sidebar a:hover {
+  font-size: 1.35em;
+  font-weight: bold;
+  border: #1C6E12 solid 1px;
+  background-color: rgba(35, 133, 22, 0.6);
+  text-decoration: underline white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(50, 93, 57, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#colunas {
+  color: #464746;
+}
+
+nav {
+  border-width: 2px;
+  border-color: white;
+  margin-top: 10px;
+}
+
+p {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+#logout{
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+#logout:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0 15px 0;
+  box-shadow: rgba(50, 93, 57, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#sidebar{
+  box-shadow: #000;
+}

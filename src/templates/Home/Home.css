@@ -1,0 +1,19 @@
+.pa{
+    color: #000;
+    margin: 0 0 10px 5px;
+    font-size: 1.15em;
+}
+
+#h1home{
+    margin: 30px 0 0 5px;
+    color: #1C6E12;
+}
+
+#marginhome, #h2home{
+    margin-left: 5px;
+}
+
+#h2home{
+    margin: 0 0 5px 5px;
+    color: #1C6E12;
+}

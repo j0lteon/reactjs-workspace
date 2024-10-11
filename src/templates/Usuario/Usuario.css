@@ -1,0 +1,42 @@
+#editbutton{
+    background-color: #1C6E12;
+    border: #1C6E12;
+}
+
+#bordinha{
+    border-radius: 10px;
+}
+
+#outrobutton{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+}
+
+#outrobutton:hover{
+    text-decoration: underline;
+}
+
+#searchform{
+    display: flex;
+}
+
+#pesquisar{
+    border-radius: 10px 0 0 10px;
+    font-size: 1.3em;
+    border-color: #1C6E12;
+    padding: 0 0 0 5px;
+    width: 20em;
+}
+
+#btnpesq{
+    border-radius: 0 10px 10px 0;
+    background-color: #1C6E12;
+    padding: 6.5px 12px;
+    font-size: 1.3em;
+    border-radius: 0 10px 10px 0;
+    color: white;
+}
+
+#userimg{
+    height: 100px;
+    border-radius: 10px;
+}

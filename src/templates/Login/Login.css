@@ -1,0 +1,163 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+
+#container {
+    width: 50vh;
+    display: inline-block;
+    padding: 5%;
+    margin: 0;
+    margin-left: 10%;
+}
+
+#login-form {
+    width: 70vh;
+    display: inline-block;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #32541C;
+}
+
+#h1 {
+    color: #1C6E12;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#email, #password{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #cccc;
+    border-radius: 10px;
+}
+
+#button {
+   background-color: #1C6E12;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 10px;
+   cursor: pointer;
+   display: block;
+   justify-content: center;
+   margin: 0 auto;
+   min-width: 70%;
+   width: 70%;
+   max-height: 3em;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+}
+
+#button:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.txt{
+    background-image: linear-gradient(145deg, #1C6E12, rgba(29, 110, 18, 0.5) 99%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 100vh;
+}
+
+.ss {
+    display: inline-block;
+}
+
+.master {
+    width: 100%;
+    display: flex;
+}
+
+.imagemlog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 111px;
+    padding: 3px;
+  }
+
+#bemVindo{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+#forgotlink{
+    margin-top: 10px;
+    color: #1C6E12;
+    min-width: 70%;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#topinho{
+    background: #1C6E12;
+    height: 4em;
+    box-shadow: 0px 1px 7px;
+    color: #1C6E12;
+    margin: 0 0 60px 0;
+}
+
+#footerforgotpass{
+    height: 5em;
+    color: #1C6E12;
+    margin-top: 60px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+#partedecima{
+    margin: 0px 60px 100px 100px;
+    max-width: 40%;
+}
+
+#formforgot{
+    width: 40%;
+}
+
+#gambiarraforgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#return{
+    color: #32541C;
+}
+
+.error{
+    color: red;
+    font-size: 1em;
+    align-items: center;
+    margin-left: 2.9em;
+    margin-top: 5px;
+}

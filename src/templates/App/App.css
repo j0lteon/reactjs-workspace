@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  margin-bottom: 30px;
+}
+
+.hahhhahaahhaha {
+  background-color: rgba(29, 110, 18, 0.2);
+  margin: 10px 5% 130px 5%;
+}
+
+#link {
+  text-align: center;
+  margin-right: 30px;
+}
+
+#entrada {
+  font-size: 1.3em;
+  background: #1C6E12;
+  border: #0e3509 solid 1px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+  padding: 5px;
+  width: 130px;
+}
+
+#entrada:hover{
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+
+#sectionlogo {
+  margin-top: 10px;
+}
+
+#divisao {
+  background: #1C6E12;
+  color: #1C6E12;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background: #1C6E12;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  padding: 25px;
+}
+
+.rodape {
+  margin: 20px;
+  text-align: left;
+  width: 48%;
+  display: inline-block;
+}
+
+.opa {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodapeimagem {
+  height: 8em;
+}
+
+.divisoria {
+  height: 10em;
+  width: 1px;
+  display: inline-block;
+  border: 1px solid #fff;
+  background: #fff;
+  margin-right: 10px;
+}
+
+.secao2 {
+  background: #DBDBDB;
+  padding: 15px 15px 50px 15px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.s2h1 {
+  color: black;
+  margin: 15px;
+  text-align: center;
+}
+
+.cont1 {
+  width: 33%;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+.cont1 img {
+  width: 60%;
+}

@@ -1,0 +1,29 @@
+#newprod{
+    background-color: #1C6E12;
+    border: #1C6E12;
+}
+
+.foto{
+    width: 10px;
+}
+
+#bordinha{
+    border-radius: 10px;
+}
+
+#gravar, #editbutton, #newprod{
+    background-color: #1C6E12;
+    border: #1C6E12 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+}
+
+#gravar:hover, #editbutton:hover, #newprod:hover{
+    text-decoration: underline;
+}
+
+#prodimg{
+    width: 10em;
+    border-radius: 10px;
+}
+
+/* style={{ width: '100px', height: '100px', objectFit: 'cover' }}  */
